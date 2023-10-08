@@ -2,7 +2,7 @@
 	name       = "\improper Rapid-Piping-Device (RPD)"
 	desc       = "A device used to rapidly pipe things."
 	icon_state = "rpd"
-	frequency = 0
+	frequency = 1439
 	var/has_metal_slime = 0
 	var/has_yellow_slime = 0
 	starting_materials = list(MAT_IRON = 75000, MAT_GLASS = 37500)

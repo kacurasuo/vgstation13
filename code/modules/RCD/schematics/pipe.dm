@@ -379,7 +379,7 @@
 		
 	if("set_freq" in href_list)
 		if(href_list["set_freq"]=="reset")
-			master.frequency = 0
+			master.frequency = 1439
 			master.rebuild_ui()
 			return 1
 		
